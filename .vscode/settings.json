@@ -1,0 +1,10 @@
+{
+  "github.copilot.chat.edits.suggestRelatedFilesForTests": false,
+  "github.copilot.chat.languageContext.typescript.enabled": false,
+  "github.copilot.chat.setupTests.enabled": false,
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "editor.quickSuggestions": {
+    "other": "off"
+  }
+}
