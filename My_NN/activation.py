@@ -36,3 +36,15 @@ class Softmax:
         # Calculate sample-wise gradient
         # and add it to the array of sample gradients
         self.dinputs[index] = np.dot(jacobian_matrix, single_dvalues)         
+        
+       
+       
+class sigmiod_activation:
+  def __init__(self):
+    pass
+  def forward(self,input):
+    self.inputs=input
+    self.output=1/(1+np.exp(-input))
+  def backward(self,dvalues):
+    self.dinputs=dvalues*(1-self.output)*self.output          
+        

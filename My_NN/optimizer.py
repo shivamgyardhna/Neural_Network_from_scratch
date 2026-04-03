@@ -131,7 +131,7 @@ class Optimizer_RMS_PROP:
         self.iterations += 1
 
 class Adam_Optimizer:
-    def __init__(self, lr=0.001, decay=0, epsilon=1e-7, beta1=0.9, beta2=0.999):
+    def __init__(self, lr=0.001, decay=0.01, epsilon=1e-7, beta1=0.9, beta2=0.999):
         self.learning_rate = lr
         self.current_learning_rate = lr
         self.decay = decay
